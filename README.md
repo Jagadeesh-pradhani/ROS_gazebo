@@ -26,3 +26,11 @@ sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator 
 ```
 *refer below page for more info*
 http://wiki.ros.org/noetic/Installation/Ubuntu
+
+## Installing Ardupilot Directory
+https://github.com/punkypankaj/Installing-ArduPilot-directory/blob/main/docs.md
+
+## Installing Ardupilot plugin for gazebo
+https://github.com/punkypankaj/Installing-Gazebo-and-ArduPilot-Plugin/blob/main/Docs.md
+or
+https://github.com/dronedojo/ardupilot_gazebo
