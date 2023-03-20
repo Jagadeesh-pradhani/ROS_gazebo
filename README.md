@@ -15,3 +15,14 @@ sudo apt update
 sudo apt install ros-noetic-desktop-full
 ```
 this will install Ros noetic full version (it wil take time to install).
+**Setup Environment**
+use this command every time you open a new terminal to get access to ROS
+```
+source /opt/ros/noetic/setup.bash
+```
+*Install Dependencies*
+```
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+```
+*refer below page for more info*
+http://wiki.ros.org/noetic/Installation/Ubuntu
