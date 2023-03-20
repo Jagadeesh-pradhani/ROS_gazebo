@@ -34,3 +34,36 @@ https://github.com/punkypankaj/Installing-ArduPilot-directory/blob/main/docs.md
 https://github.com/punkypankaj/Installing-Gazebo-and-ArduPilot-Plugin/blob/main/Docs.md
 or
 https://github.com/dronedojo/ardupilot_gazebo
+
+
+## Run simulation
+
+**Open first terminal**, and copy the following commands to open gazebo simulator
+make sure you have the world named as irish_world in gazebo_ros file.
+```
+source /opt/ros/noetic/setup.bash
+```
+```
+roslaunch gazebo_ros iris_world.launch
+```
+if no world is present clone the following git,
+```
+git clone https://github.com/dronedojo/ardupilot_gazebo -b master
+```
+
+**open second terminal** , and copy the following to connect to the vehicle in gazebo world.
+```
+source /opt/ros/noetic/setup.bash
+```
+```
+cd ~/ardupilot/ArduCopter/
+sim_vehicle.py -v ArduCopter -f gazebo-iris --console
+```
+once you run the command you will be connected to the drone, you can now see drone's parameter in console and controll it through terminal.
+
+**Open third terminal**, to autonomously simulate drone using dronekit code
+```
+python3 test.py
+```
+
+
