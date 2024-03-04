@@ -66,4 +66,9 @@ once you run the command you will be connected to the drone, you can now see dro
 python3 test.py
 ```
 
+## Image of simulation
+
+![image](https://github.com/Jagadeesh-pradhani/ROS_gazebo/assets/97280653/c4c15af6-2a9a-47d8-8f96-8b529b81da17)
+
+
 
