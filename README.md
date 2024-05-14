@@ -31,7 +31,9 @@ http://wiki.ros.org/noetic/Installation/Ubuntu
 https://github.com/punkypankaj/Installing-ArduPilot-directory/blob/main/docs.md
 
 ## Installing Ardupilot plugin for gazebo
-https://github.com/punkypankaj/Installing-Gazebo-and-ArduPilot-Plugin/blob/main/Docs.md
+https://github.com/Intelligent-Quads/iq_tutorials/tree/master 
+or
+ https://github.com/punkypankaj/Installing-Gazebo-and-ArduPilot-Plugin/blob/main/Docs.md
 or
 https://github.com/dronedojo/ardupilot_gazebo
 
